@@ -12,5 +12,4 @@ void draw()
   ellipse(300,195,110,110);
   fill(0,0,0);
   ellipse(300,145,115,40);
-  rect(
 }
