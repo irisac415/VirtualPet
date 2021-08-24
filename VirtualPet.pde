@@ -1,3 +1,4 @@
+void setup()
 {
   size(600,600);
   background(120,140,160);
