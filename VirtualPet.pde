@@ -5,6 +5,10 @@ void setup()
 }
 void draw()
 {
+  //ground
+  noStroke();
+  fill(230,250,255);
+  rect(0,515,600,110);
   noStroke();
   //body
   fill(255,255,255);
