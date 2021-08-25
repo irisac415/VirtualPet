@@ -16,4 +16,19 @@ void draw()
   ellipse(300,145,115,40);
   rect(260,80,80,70);
   //nose
+  fill(255,175,55);
+  triangle(290, 200,290,215,322,207.5);
+  //eyes
+  fill(0,0,0);
+  ellipse(280,188,16.5,16.5);
+  ellipse(320,188,16.5,16.5);
+  //buttons
+  ellipse(300,265,17,17);
+  ellipse(300,300,17,17);
+  ellipse(300,335,17,17);
+  //arms
+  stroke(155,100,15);
+  strokeWeight(2.5);
+  line(380,300,450,220);
+  line(220,300,150,220);
 }
