@@ -27,7 +27,7 @@ void draw()
   ellipse(300,300,17,17);
   ellipse(300,335,17,17);
   //arms
-  stroke(155,100,15);
+  stroke(110,55,0);
   strokeWeight(2.5);
   line(380,300,450,220);
   line(220,300,150,220);
