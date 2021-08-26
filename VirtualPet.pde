@@ -5,7 +5,6 @@ void setup()
 }
 void draw()
 {
-  System.out.println(y);
   //ground
   noStroke();
   fill(220,250,255);
