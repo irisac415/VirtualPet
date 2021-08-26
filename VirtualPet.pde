@@ -1,18 +1,10 @@
-import processing.serial.*;
-import cc.arduino.*;
-Arduino arduino;
-
 void setup()
 {
   size(600,600);
   background(120,140,160);
-  arduino = new Arduino(this, Arduino.list()[0], 57600); //change the [0] to a [1] or [2] etc. if your program doesn't work
 }
 void draw()
 {
-  background(120,140,160);
-  int y = arduino.analogRead(5);
-  System.out.println(y);
   //ground
   noStroke();
   fill(220,250,255);
@@ -41,7 +33,7 @@ void draw()
   //arms
   stroke(110,55,0);
   strokeWeight(2.5);
-  line(381,300,450,y);
-  line(218,300,150,y);
+  line(381,300,450,220);
+  line(218,300,150,220);
 }
 
