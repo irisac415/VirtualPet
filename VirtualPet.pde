@@ -30,7 +30,7 @@ void draw()
   ellipse(300,275,17,17);
   ellipse(300,310,17,17);
   ellipse(300,345,17,17);
-   //bowtie
+  //bowtie
   fill(190,200,250);
   ellipse(300,240,15,15);
   triangle(325,230,300,240,325,250);
