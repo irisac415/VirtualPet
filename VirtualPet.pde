@@ -30,11 +30,11 @@ void draw()
   ellipse(300,275,17,17);
   ellipse(300,310,17,17);
   ellipse(300,345,17,17);
-  //bowtie
+   //bowtie
   fill(190,200,250);
   ellipse(300,240,15,15);
-  triangle(330,230,300,240,330,250);
-  triangle(270,230,270,250,300,240);
+  triangle(325,230,300,240,325,250);
+  triangle(275,230,275,250,300,240);
   //arms
   stroke(110,55,0);
   strokeWeight(2.5);
